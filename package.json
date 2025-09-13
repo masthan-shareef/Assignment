@@ -1,0 +1,13 @@
+{
+  "name": "sample-ui-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js UI app for Jenkins deployment demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build step: copying public files' && mkdir -p dist && cp -r public/* dist/"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
